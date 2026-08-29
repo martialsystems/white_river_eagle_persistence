@@ -3,7 +3,7 @@
 from pathlib import Path
 
 from ecpers.claims import scan_text
-from ecpers.config import EAGLE_CREEK_ID, EAGLE_CREEK_NAME, QUESTION
+from ecpers.config import EAGLE_CREEK_ID, QUESTION
 
 REPO = Path(__file__).resolve().parents[1]
 
@@ -13,7 +13,7 @@ def test_readme_opens_with_the_question() -> None:
     body = "\n".join(text.splitlines()[1:]).lstrip()
     assert body.startswith(QUESTION)
     assert EAGLE_CREEK_ID in text
-    assert EAGLE_CREEK_NAME in text
+    assert "Eagle Creek at Indianapolis" in text
     assert "03352500" in text
     assert "03351000" in text
     assert "03354000" in text

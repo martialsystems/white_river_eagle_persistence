@@ -4,7 +4,7 @@ Question: Does lag-1 Eagle Creek (plus Nora and/or Fall Creek) beat Centerton pe
 
 Live science is `ea1c0e1`. Eagle-only: no (2,421 vs 1,795). Mixes: yes on RMSE (1,607 / 1,668 / 1,694 vs 1,795), no on MAE (823 / 872 / 938 vs 810). Three-feature RMSE matches `8e4fdca`. That tree is not restamped.
 
-Site lookup first: 03353500 EAGLE CREEK AT INDIANAPOLIS, IN, complete. 03353240 79th Street empty: stop, same as 16th Street. 03353451 starts late: stop. No alternate.
+Site lookup first: 03353500 Eagle Creek at Indianapolis, IN, complete. 03353240 79th Street empty: stop, same as 16th Street. 03353451 starts late: stop. No alternate.
 
 Indianapolis is not a feature. OLS is not a pour. Empty or late 00060 stops.
 
@@ -12,10 +12,10 @@ Indianapolis is not a feature. OLS is not a pour. Empty or late 00060 stops.
 
 | Layer | Role | Source |
 |-------|------|--------|
-| Feature | lag-1 00060 | NWIS 03353500 EAGLE CREEK AT INDIANAPOLIS, IN |
-| And/or | lag-1 00060 | NWIS 03351000 Nora |
-| And/or | lag-1 00060 | NWIS 03352500 FALL CREEK AT MILLERSVILLE, IN |
-| Label | 00060 | NWIS 03354000 Centerton |
+| Feature | lag-1 00060 | NWIS 03353500 Eagle Creek at Indianapolis, IN |
+| And/or | lag-1 00060 | NWIS 03351000 White River near Nora, IN |
+| And/or | lag-1 00060 | NWIS 03352500 Fall Creek at Millersville, IN |
+| Label | 00060 | NWIS 03354000 White River near Centerton, IN |
 | Split | same as Eagle gap / Fall Creek / NWM-error | Train through 2018-09-30, hold out 2018-10-01 to 2020-12-31 |
 
 ## Figures

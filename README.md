@@ -22,22 +22,22 @@ Figure 2. Holdout RMSE. Eagle-only is worse than persistence and about even with
 
 Lag-1 daily mean 00060, train-only OLS, holdout 2018-10-01 to 2020-12-31. Indianapolis 03353000 is not a feature. This tree does not read `p_sfha` and does not paint HAND. Daily 00060, not feet. No 2026.
 
-| USGS site | Official name | Role |
-|-----------|---------------|------|
-| 03353500 | EAGLE CREEK AT INDIANAPOLIS, IN | Required feature: lag-1 **00060** |
-| 03351000 | WHITE RIVER NEAR NORA, IN | And/or feature: lag-1 **00060** |
-| 03352500 | FALL CREEK AT MILLERSVILLE, IN | And/or feature: lag-1 **00060** |
-| 03354000 | WHITE RIVER NEAR CENTERTON, IN | Label. Persistence bar is this gage lag 1 d. |
+| USGS site | Name | Role |
+|-----------|------|------|
+| 03353500 | Eagle Creek at Indianapolis, IN | Required feature: lag-1 **00060** |
+| 03351000 | White River near Nora, IN | And/or feature: lag-1 **00060** |
+| 03352500 | Fall Creek at Millersville, IN | And/or feature: lag-1 **00060** |
+| 03354000 | White River near Centerton, IN | Label. Persistence bar is this gage lag 1 d. |
 
-Site lookup first. **03353500** EAGLE CREEK AT INDIANAPOLIS, IN has a complete daily 00060 on 2016-10-01 to 2020-12-31 (1,553 / 1,553). Empty or late 00060 at that site is a stop. No alternate.
+Site lookup first. **03353500** Eagle Creek at Indianapolis, IN has a complete daily 00060 on 2016-10-01 to 2020-12-31 (1,553 / 1,553). Empty or late 00060 at that site is a stop. No alternate.
 
 | Looked up, not used | Why |
 |---------------------|-----|
-| 03353240 EAGLE CREEK AT 79TH STREET AT INDIANAPOLIS, IN | Empty 00060 on this window. Stop, same as Fall Creek 16th Street. |
-| 03353451 EAGLE CREEK BELOW RESERVOIR AT INDIANAPOLIS, IN | Starts 2016-10-26. Late. Stop. |
-| 03353200 EAGLE CREEK AT ZIONSVILLE, IN | Three gaps. |
-| 03353460 EAGLE CREEK AT CLERMONT, IN | Complete, but not the mouth-ward gage. |
-| 03353600 LITTLE EAGLE CREEK AT SPEEDWAY, IN | A different creek. |
+| 03353240 Eagle Creek at 79th Street at Indianapolis, IN | Empty 00060 on this window. Stop, same as Fall Creek 16th Street. |
+| 03353451 Eagle Creek below reservoir at Indianapolis, IN | Starts 2016-10-26. Late. Stop. |
+| 03353200 Eagle Creek at Zionsville, IN | Three gaps. |
+| 03353460 Eagle Creek at Clermont, IN | Complete, but not the mouth-ward gage. |
+| 03353600 Little Eagle Creek at Speedway, IN | A different creek. |
 
 ## Live skill (holdout 2018-10-01 to 2020-12-31)
 
