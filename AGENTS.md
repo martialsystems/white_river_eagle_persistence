@@ -1,6 +1,6 @@
 # Agent notes: white_river_eagle_persistence
 
-Public GitHub. MIT. Question: Does lag-1 Eagle Creek (plus Nora and/or Fall Creek) beat Centerton persistence on the same WY2019 to 2020 split?
+Public GitHub. MIT. Question: Does adding Eagle Creek help you guess tomorrow's flow at Centerton?
 
 Science lock: `ea1c0e1`. Not a yes/no. Eagle-only fails (2,421). Mixes cut peak RMSE (1,607 / 1,668 / 1,694 vs 1,795) and lose MAE (823 to 938 vs 810). Lead with RMSE ≠ MAE. Do not re-fit.
 

@@ -36,9 +36,8 @@ def test_readme_opens_with_the_question() -> None:
     assert "white_river_nwm_error" in text
     assert "1104e5e47b8a04006ec694d289d43639" in text
     assert "16584e78" not in text
-    assert "yesterday" not in text.lower()
+    assert "Most days, no" in text
     assert "explains Centerton" not in text
-    assert "Not a yes/no" in text
     assert scan_text(text) == []
     assert "—" not in text
     assert "What it is not" not in text

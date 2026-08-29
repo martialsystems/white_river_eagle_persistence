@@ -1,6 +1,6 @@
 # Methodology: lag-1 Eagle Creek plus Nora and/or Fall Creek versus Centerton persistence
 
-Question: Does lag-1 Eagle Creek (plus Nora and/or Fall Creek) beat Centerton persistence on the same WY2019 to 2020 split?
+Question: Does adding Eagle Creek help you guess tomorrow's flow at Centerton?
 
 Live science is `ea1c0e1`. Not a yes/no. Eagle-only fails (2,421). Mixes cut peak RMSE (1,607 / 1,668 / 1,694 vs 1,795) and lose the ordinary day (MAE 823 to 938 vs 810). Lead with RMSE ≠ MAE. Three-feature RMSE matches `8e4fdca`. That tree is not restamped. White Lick is a later tree, not a predictor here.
 
