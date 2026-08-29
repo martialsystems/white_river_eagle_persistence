@@ -40,7 +40,7 @@ NWM_CITATION = "fa2e315"
 NWM_CENTERTON_RMSE_CFS = 2414.32
 NWM_CENTERTON_PERS_RMSE_CFS = 1794.57
 
-LOCKED_LIVE_COMMIT = ""
+LOCKED_LIVE_COMMIT = "ea1c0e1"
 USER_AGENT = "MartialSystemsResearch/white_river_eagle_persistence"
 NWIS_DV_URL = (
     "https://waterservices.usgs.gov/nwis/dv/?format=json&sites={site}"

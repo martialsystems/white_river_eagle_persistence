@@ -2,7 +2,7 @@
 
 Public GitHub. MIT. Question: Does lag-1 Eagle Creek (plus Nora and/or Fall Creek) beat Centerton persistence on the same WY2019 to 2020 split?
 
-Eagle-only loses (2,421 vs 1,795). Mixes beat RMSE, not MAE. Three-feature 1,607 matches `8e4fdca`.
+Science lock: `ea1c0e1`. Eagle-only loses (2,421 vs 1,795). Mixes beat RMSE, not MAE. Three-feature 1,607 matches `8e4fdca`.
 
 Site lookup first: 03353500. 03353240 empty: stop, same as 16th Street. 03353451 starts late: stop. No alternate.
 

@@ -2,7 +2,7 @@
 
 Does lag-1 Eagle Creek (plus Nora and/or Fall Creek) beat Centerton persistence on the same WY2019 to 2020 split?
 
-Eagle-only: no. Mixes: yes on RMSE, no on MAE. Live skill is in `logs/nora_live/`.
+Eagle-only: no. Mixes: yes on RMSE, no on MAE. Science lock: `ea1c0e1`. Live skill is in `logs/nora_live/`.
 
 Holdout RMSE: Eagle-only **2,421** loses to Centerton lag 1 d **1,795**. That is the control, the same honesty as Nora-only losing to Indianapolis persistence: Eagle Creek by itself is not the nowcast. Eagle plus Nora **1,668**, Eagle plus Fall Creek **1,694**, and Eagle plus both **1,607** beat 1,795. Cited NWM **2,414**. Three-feature 1,607 matches locked `8e4fdca` on this same 00060 matrix. That tree asked versus Nora-plus-Fall-Creek (1,734) and is not restamped.
 
