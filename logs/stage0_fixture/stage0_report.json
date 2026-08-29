@@ -1,0 +1,87 @@
+{
+  "stage": "0",
+  "fixture": true,
+  "question": "Does lag-1 Eagle Creek (plus Nora and/or Fall Creek) beat Centerton persistence on the same WY2019 to 2020 split?",
+  "lag_days": 1,
+  "lag1_locked": true,
+  "skill": {
+    "persistence_target": {
+      "rmse_cfs": 168.96263582902898,
+      "mae_cfs": 107.3198221876613
+    },
+    "nwm_cited": {
+      "rmse_cfs": 2414.32,
+      "source": "fa2e315"
+    },
+    "eagle": {
+      "rmse_cfs": 221.3921071785675,
+      "mae_cfs": 188.54105913381824,
+      "intercept": 538.2985669544464,
+      "lag_days": 1,
+      "beats_persistence_rmse": false,
+      "coef_eagle_creek": 1.3168032990171474,
+      "beats_persistence_mae": false
+    },
+    "eagle_nora": {
+      "rmse_cfs": 75.33356848757212,
+      "mae_cfs": 48.926939504053166,
+      "intercept": 24.183787249159877,
+      "lag_days": 1,
+      "beats_persistence_rmse": true,
+      "coef_eagle_creek": 1.1021704730064938,
+      "coef_nora": 1.250512990562171,
+      "beats_persistence_mae": true
+    },
+    "eagle_fall_creek": {
+      "rmse_cfs": 166.01654686557626,
+      "mae_cfs": 138.04106435242838,
+      "intercept": 329.8484118868747,
+      "lag_days": 1,
+      "beats_persistence_rmse": true,
+      "coef_eagle_creek": 1.2503627501488546,
+      "coef_fall_creek": 1.7125247921762135,
+      "beats_persistence_mae": false
+    },
+    "eagle_nora_fall_creek": {
+      "rmse_cfs": 31.962329229389017,
+      "mae_cfs": 24.039901598130783,
+      "intercept": 2.4726835542890058,
+      "lag_days": 1,
+      "beats_persistence_rmse": true,
+      "coef_eagle_creek": 1.1033996873615575,
+      "coef_nora": 1.049771616840697,
+      "coef_fall_creek": 0.8563892634337846,
+      "beats_persistence_mae": true
+    }
+  },
+  "verdict": "some_eagle_mixes_beat_persistence_rmse",
+  "predictor_sites": [
+    "03353500",
+    "03351000",
+    "03352500"
+  ],
+  "label_sites": [
+    "03354000"
+  ],
+  "eagle_creek_name": "EAGLE CREEK AT INDIANAPOLIS, IN",
+  "beats_persistence_rmse": [
+    "eagle_nora",
+    "eagle_fall_creek",
+    "eagle_nora_fall_creek"
+  ],
+  "beats_persistence_mae": [
+    "eagle_nora",
+    "eagle_nora_fall_creek"
+  ],
+  "eagle_gap_three_rmse_cited": 1607.31,
+  "eagle_gap_citation": "8e4fdca",
+  "nwm_centerton_rmse_cfs_cited": 2414.32,
+  "nwm_citation": "fa2e315",
+  "p_sfha_feature": false,
+  "figures": [
+    "hydrograph.png",
+    "rmse_bars.png"
+  ],
+  "n_days": 1553,
+  "source": "fixture"
+}
