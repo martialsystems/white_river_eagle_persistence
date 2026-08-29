@@ -67,4 +67,4 @@ PYTHONPATH=src:. python3 scripts/run_live.py logs/nora_live
 
 Two figures max. Empty or late Eagle Creek 00060 stops (`run_live.py` exit 2).
 
-Lanes (maps / White River Q / precip): https://github.com/martialsystems
+Research index: https://github.com/martialsystems/.github/blob/main/RESEARCH.md
