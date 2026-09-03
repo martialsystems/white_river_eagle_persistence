@@ -48,9 +48,7 @@ White Lick is still untested. This repo stops.
 
 ## Sister notes
 
-- Fall Creek gap: [![white_river_fall_creek_gap](https://img.shields.io/badge/white__river__fall__creek__gap-2e7d32?style=for-the-badge)](https://github.com/martialsystems/white_river_fall_creek_gap)
-- NWM error: [![white_river_nwm_error](https://img.shields.io/badge/white__river__nwm__error-2e7d32?style=for-the-badge)](https://github.com/martialsystems/white_river_nwm_error)
-- Hydrology gist: [![White River Q](https://img.shields.io/badge/White_River_Q-2e7d32?style=for-the-badge)](https://gist.github.com/martialsystems/1104e5e47b8a04006ec694d289d43639)
+[![Fall Creek at Indianapolis](https://img.shields.io/badge/Fall_Creek_at_Indianapolis-2e7d32?style=for-the-badge)](https://github.com/martialsystems/white_river_fall_creek_gap) [![NWM v2.1 vs yesterday](https://img.shields.io/badge/NWM_v2.1_vs_yesterday-2e7d32?style=for-the-badge)](https://github.com/martialsystems/white_river_nwm_error) [![White River Q](https://img.shields.io/badge/White_River_Q-2e7d32?style=for-the-badge)](https://gist.github.com/martialsystems/1104e5e47b8a04006ec694d289d43639)
 
 Not a flood-inundation map.
 
