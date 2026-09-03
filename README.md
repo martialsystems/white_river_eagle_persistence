@@ -48,7 +48,7 @@ White Lick is still untested. This repo stops.
 
 ## Sister notes
 
-[![Fall Creek at Indianapolis](https://img.shields.io/badge/Fall_Creek_at_Indianapolis-2e7d32?style=for-the-badge)](https://github.com/martialsystems/white_river_fall_creek_gap) [![NWM v2.1 vs yesterday](https://img.shields.io/badge/NWM_v2.1_vs_yesterday-2e7d32?style=for-the-badge)](https://github.com/martialsystems/white_river_nwm_error) [![White River Q](https://img.shields.io/badge/White_River_Q-2e7d32?style=for-the-badge)](https://gist.github.com/martialsystems/1104e5e47b8a04006ec694d289d43639)
+[Fall Creek at Indianapolis](https://github.com/martialsystems/white_river_fall_creek_gap) [NWM v2.1 vs yesterday](https://github.com/martialsystems/white_river_nwm_error) [White River Q](https://gist.github.com/martialsystems/1104e5e47b8a04006ec694d289d43639)
 
 Not a flood-inundation map.
 
@@ -65,4 +65,4 @@ PYTHONPATH=src:. python3 scripts/run_live.py logs/nora_live
 
 Two figures max. Empty or late Eagle Creek 00060 stops (`run_live.py` exit 2).
 
-[![Open the research console](https://img.shields.io/badge/Open_the_research_console-2e7d32?style=for-the-badge)](https://martialsystems.github.io/indiana_wx_pages/)
+Research index: https://gist.github.com/martialsystems/66b896b0a4a0b8cba2b478aef64312f3
